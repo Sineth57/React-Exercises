@@ -5,15 +5,22 @@ import SimpleCard from './components/SimpleCard';
 
 function App() {
 
-  const url = "https://picsum.photos/id/237/300";
-  const alt = "dog";
-
+ const person = {
+  name: "kamal",
+  age: 23,
+ }
+  
+  
   return (
     <>
-    {/*<img src={url} alt={alt} /> */}
+   
     <h1 style = {{
       color: "white",
-    }}>Hello world</h1>
+    }}>Hello  {person.name}, I am {person.age} years old.
+
+    </h1>
+
+       
     </>
   );
 }
