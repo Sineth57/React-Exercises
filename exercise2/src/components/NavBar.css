@@ -1,0 +1,45 @@
+.navbar{
+    background-color: white;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 7px;
+}
+
+.nav-links{
+    display: flex;
+    gap: 20px;
+    font-weight: normal;
+}
+
+.logo-navlinks{
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+
+.nav-button{
+    
+    color: blue;
+    background-color: white;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 17px;
+    padding-right: 17px;
+    border: none;
+    border-radius: 6px;
+    font-size: 14px;
+    border: 1px solid rgb(108, 108, 255);
+}
+
+.logo{
+    color: black;
+    font-size: 15px;
+   
+    
+
+}

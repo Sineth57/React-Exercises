@@ -1,7 +1,17 @@
+import Logo from "./Logo";
+import "./NavBar.css";
+import NavButton from "./NavButton";
+import NavLinks from "./NavLinks";
+
 function NavBar(){
     return( 
-        <div>
-            <h1>Nav Bar</h1>
+        <div className="navbar">
+           <div className="logo-navlinks">
+           <Logo />
+            <NavLinks />
+            
+           </div>
+            <NavButton />
         </div>    
     );
 }
