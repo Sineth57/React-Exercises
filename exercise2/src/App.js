@@ -1,26 +1,21 @@
 
 import './App.css';
 import NavBar from './components/NavBar';
+import Product from './components/Product';
 import SimpleCard from './components/SimpleCard';
 
 function App() {
 
- const person = {
-  name: "kamal",
-  age: 23,
- }
-  
-  
-  return (
+   return (
     <>
    
-    <h1 style = {{
-      color: "white",
-    }}>Hello  {person.name}, I am {person.age} years old.
-
-    </h1>
-
-       
+   <h1>My Products</h1>
+   <Product name="Apple" price={120}/>
+   <Product name="Banana" price= {345}/>
+   <Product name="Mango" price= {456}/>
+   <Product name="Graps" price= {676}/>
+   <Product name="Avacado" price= {346}/>
+           
     </>
   );
 }
