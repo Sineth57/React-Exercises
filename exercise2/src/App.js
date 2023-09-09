@@ -10,11 +10,11 @@ function App() {
     <>
    
    <h1>My Products</h1>
-   <Product name="Apple" price={120}/>
-   <Product name="Banana" price= {345}/>
-   <Product name="Mango" price= {456}/>
-   <Product name="Graps" price= {676}/>
-   <Product name="Avacado" price= {346}/>
+   <Product name="Apple" price={120} description="svdhbf"/>
+   <Product name="Banana" price= {345} description="svdhbf"/>
+   <Product name="Mango" price= {456} description="s5656bf"/>
+   <Product name="Graps" price= {676} description="svdhbf"/>
+   <Product name="Avacado" price= {346} description="svdhbf"/>
            
     </>
   );
