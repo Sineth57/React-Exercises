@@ -1,13 +1,33 @@
 import TodoItem from "./TodoItem";
 
+const todos = [{
+    name:"go shopping",
+    iscompleted:true,
+},
+{
+    name:"go home",
+    iscompleted:false,
+},
+{
+    name:"do work",
+    iscompleted:true,
+},
+{
+    name:"play guitar",
+    iscompleted:false,
+},
+];
+
 function TodoList(){
     return(
         <div>
             <h2>My todo list</h2>
-            <TodoItem todo="Go shopping" iscompleted={true} />
-            <TodoItem todo="Play guitar" iscompleted={false}/>
-            <TodoItem todo="Go home" iscompleted={true}/>
-            <TodoItem todo="Play cricker" iscompleted={false}/>
+
+            {todos.map((todo, index) => {
+                return  <TodoItem key={index} todo={todo.name} iscompleted={todo.iscompleted} />
+            })}
+
+            
         </div>
     )
 }
